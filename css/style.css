@@ -1,0 +1,321 @@
+body{
+  font-family:"Open Sans", sans-serif;
+  margin: 0;
+}
+
+.conteiner{
+  
+  width:100%;
+  max-width:1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.name{
+  display: block;
+  color: #2b2a2c;
+  font-size:16px;
+  font-weight: 800;
+
+}
+.description{
+  margin-left: 9px;
+}
+.menu-logo{
+  display:flex;
+  align-items:center;
+  margin-top:18px;
+}
+
+.avatar{
+  width:57px;
+  height:57px;
+ 
+  background:url('https://pp.userapi.com/c846220/v846220869/1340c5/K28r2LqSn_M.jpg'); 
+  border-radius:50%;
+  background-size:100%;
+}
+
+.menu-list a{
+  text-decoration:none;
+  color: #2b2a2c;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-right: 40px;
+  display:inline-block;
+  position:relative;
+}
+header nav a:after{
+  display:block;
+  content:"";
+  height:2px;
+  width:0%;
+  background-color:black;
+  transition: width .5s ease-in-out;
+  position:absolute;
+  left: 50%;
+  transform:translateX(-50%)
+}
+header nav a:hover:after,
+header nav a:focus:after {
+    width: 100%;
+}
+
+.menu-list{
+  display:flex;
+  align-items:center;
+}
+.menu-button{
+  text-transform:uppercase;
+  background-color:transparent;
+  font-size:14px;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding:13px 22px;
+}
+.hero{
+  padding-top:112px;
+  padding-bottom:150px;
+  background:url('https://wmpics.pics/di-CFIR.png') no-repeat right bottom ;
+ 
+}
+.hero-subtitle{
+  font-size:32px;
+  font-weight:400;
+  color: #2b2a2c;
+  line-height:15px;
+}
+.hero-title{
+  font-size:45px;
+  font-weight:800;
+  color: #2b2a2c;
+  line-height:45px;
+  margin-top:0px;
+  margin-bottom:8px;
+}
+.hero-description{
+  font-size:18px;
+  color: #6a696b;
+}
+.hero-social{
+  margin-top:26px;
+}
+.social{
+  display:inline-block;
+  width:41px;
+  height:41px;
+  margin-right:10px;;
+  text-align:center;
+  line-height:41px;
+  color: #ffffff;
+  font-size:23px;
+}
+.behance{
+  background-color: #1869ff;
+}
+.facebook{
+  background-color: #3a5898;
+}
+.instagram{
+  background-color: #13578a;
+}
+.vk{
+  background-color: #56acef;
+}
+.hero-btn{
+  margin-top:42px;
+}
+.btn{
+  text-decoration:none;
+  color: #6a696b;
+  font-size:16px;
+  background-color: #2b2a2c;
+  padding:20px 34px;
+  margin-right:17px;
+  border-radius:50px;
+  color: #ffffff;
+}
+.btn-o{
+  background-color:#ffffff;
+  border:1px solid #2b2a2c;
+  padding:20px 45px;
+  color: #6a696b;
+}
+.projects{
+  padding: 97px 0px;
+}
+.project-cards{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  
+}
+.project-card{
+  max-height:370px;
+  min-width:370px;
+  background-color: #ffffff;
+ 
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+  
+  
+}
+.project-card_image{
+  height:300px;
+}
+.android-studio{
+  background: url('https://brouz.ir/wp-content/uploads/2015/10/Untitledsad.jpg') center no-repeat;
+  background-size: cover;
+}
+.mysite{
+  background: url('https://wmpics.pics/di-8DW8.png') center no-repeat;
+  background-size: cover;
+}
+.amazon{
+  background: url('https://favjob.ru/files/5b87ede72a8679.79551947.jpg') center no-repeat;
+  background-size: 100%;
+}
+.apple{
+  background: url('https://cdn.wallpapersafari.com/40/21/Y1WJje.png') center no-repeat ;
+  background-size: cover;
+}
+.vksite{
+  background: url('https://evorch.ru/wp-content/uploads/2018/12/73a60f831171360659bac584307ae39d.jpeg') center no-repeat;
+  background-size: cover;
+}
+.youtube{
+  background: url('https://im0-tub-ru.yandex.net/i?id=504305f3efa61fa05a491909f3da1cbe&n=13') center no-repeat;
+  background-size: 100%;
+}
+.project-category{
+  display:block;  
+  font-size:12px;
+}
+.project-card_info{
+  padding:19px 13px;
+  font-size:16px;
+  color: #2b2a2c;
+}
+.project-title{
+  display:flex;
+  justify-content:space-between;
+  text-transform:uppercase;
+  font-weight:800;
+  margin-top:13px;
+}
+.about-me_description{
+  background: url('https://wmpics.pics/di-GCK1UCER.png') left no-repeat;
+  background-size: contain;
+  
+}
+.about-me_title, .about-me_text{
+  margin-left:300px;
+}
+.footer{
+  background-color: #2b2a2c; 
+  padding:20px 0px;
+  color: #8d8d8e;
+  
+}
+.footer a{
+  color: #8d8d8e;
+  text-decoration:none;
+}
+.footer-info{
+  display:flex;
+  justify-content:space-between;
+}
+.footer-text{
+  display:flex;
+  align-items:center;
+}
+.copyright{
+  padding-right: 16px;
+  margin-right: 16px;
+  font-size:14px;
+  border-right:1px solid #8d8d8e;
+}
+.footer-social_link{
+  font-size:20px;
+  margin-right: 13px;
+  
+}
+.footer-menu{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  
+}
+.footer-menu a{
+  font-size:14px;
+  display:inline-block;
+  margin-right: 30px;
+}
+.footer-btn{
+  
+  background-color:transparent;
+  font-size:14px;
+  border-radius: 50px;
+  border: 1px solid #8d8d8e;
+  
+  padding:10px 22px;
+}
+
+
+@media(max-width:1200px){
+  .conteiner{
+    width:960px;
+  }
+  .project-card{
+    width:48.5%;
+  }
+  
+}
+@media(max-width:1024px){
+  .conteiner{
+    width:768px;
+  }
+  .project-card{
+    width:45%;
+  }
+  .menu-list a{
+    font-size: 12px;
+  }
+  .description small{
+    font-size: 12px;
+  }
+  .description name{
+    font-size: 14px;
+  }
+}
+@media(max-width:800px){
+  .conteiner{
+    width:768px;
+  }
+  .project-cards{
+    justify-content:center;
+  }
+  .project-card{
+    width:95%;
+  }
+
+}
+@media(max-width:550px){
+  .conteiner{
+    width:95%;
+  }
+  .project-cards{
+    justify-content:center;
+  }
+  .project-card{
+    width:95%;
+  }
+
+}
